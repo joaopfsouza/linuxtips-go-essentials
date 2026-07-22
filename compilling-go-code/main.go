@@ -1,12 +1,12 @@
 package main
 
-import{
-"fmt"
-"github.com/joaopfsouza/linuxtips-go-essentials/compilling-go-code/printer"
+import (
+	"fmt"
 
-}
+	"github.com/joaopfsouza/linuxtips-go-essentials/compilling-go-code/printer"
+)
 
-func main(){
+func main() {
 	fmt.Println("Hello World")
-	printer.PrintSomething
+	printer.PrintSomething()
 }
