@@ -36,4 +36,13 @@ func main() {
 	println(is_ok)
 
 	print(distance)
+
+	helloWorld()
+}
+
+func helloWorld() {
+
+	msg := "Hello, World!!!!!!!!!"
+	fmt.Println(msg, PI)
+
 }
