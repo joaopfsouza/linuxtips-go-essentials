@@ -5,6 +5,7 @@ import "fmt"
 const MAX int = 1000
 
 func main() {
+
 	fmt.Println("1  - Oi, estou em uma execução 100% linear")
 	fmt.Println("2  - Oi, estou em uma execução 100% linear")
 	fmt.Println("3  - Oi, estou em uma execução 100% linear")
@@ -59,4 +60,12 @@ func main() {
 		}
 	}
 
+	result := add(3, 4)
+
+	fmt.Printf("Resultado: %d", result)
+
+}
+
+func add(a int, b int) int {
+	return a + b
 }
