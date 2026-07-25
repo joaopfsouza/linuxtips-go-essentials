@@ -4,6 +4,12 @@ import "fmt"
 
 const MAX int = 1000
 
+const (
+	LARGURA     = 10
+	COMPRIMENTO = 5
+	AREA        = LARGURA * COMPRIMENTO
+)
+
 func main() {
 
 	fmt.Println("1  - Oi, estou em uma execução 100% linear")
@@ -62,7 +68,9 @@ func main() {
 
 	result := add(3, 4)
 
-	fmt.Printf("Resultado: %d", result)
+	fmt.Printf("Resultado: %d \n", result)
+
+	fmt.Println("Área do retângulo:", AREA)
 
 }
 
