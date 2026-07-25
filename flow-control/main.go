@@ -26,4 +26,37 @@ func main() {
 			fmt.Printf("%d é Impar\n", i)
 		}
 	}
+
+	// Em go não existe while. Apenas loop infinito de for
+	for {
+		n++
+		fmt.Println(n)
+		if n > MAX {
+			break
+		}
+	}
+
+	switch n < MAX {
+	case true:
+		{
+			fmt.Printf("o Valor de N = %d é menor que %d", n, MAX)
+		}
+	case false:
+		{
+			fmt.Printf("o Valor de N = %d é mauir que %d \n", n, MAX)
+		}
+	}
+
+	fruta := "banana"
+	switch fruta {
+	case "banana":
+		{
+			fmt.Println("Amarela")
+		}
+	default:
+		{
+			println("Qualquer outra")
+		}
+	}
+
 }
