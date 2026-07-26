@@ -18,10 +18,10 @@ func main() {
 	mult := operations.Mul(5, 2)
 	fmt.Println(mult)
 
-	div := operations.Div(50, 2)
-	fmt.Println(div)
+	div, err1 := operations.Div(50, 2)
+	fmt.Println(div, err1)
 
-	opdiv := op.Div(50, 2)
-	fmt.Println(opdiv)
+	opdiv, err2 := op.Div(50, 0)
+	fmt.Println(opdiv, err2)
 
 }
